@@ -1,7 +1,7 @@
 """
-#######################
-# install the package #
-#######################
+#####################
+# install a package #
+#####################
 
 > pip install PackName
 
@@ -13,18 +13,32 @@
 > pip list
 
 
-#######################
-# update the packeage #
-#######################
+#####################
+# update a packeage #
+#####################
 
-> pip list
-
-
-
+> pip install PackName --upgrade
+> pip install -U packName
 
 
+########################
+# uninstall a packeage #
+########################
+
+> pip uninstall PackName
 
 
+#########################################
+# Checking the interference of packages #
+#########################################
+
+> pip check
+
+#################################
+# View the details of a package #
+#################################
+
+> pip show packName
 
 
 """

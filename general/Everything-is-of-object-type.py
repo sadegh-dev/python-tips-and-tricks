@@ -8,13 +8,13 @@
 """
 
 def hello():
-    print('say hello!')
+    print('hello world!')
 
 
 hi = hello()
 
 hi()
-# >>> 'say hello!'
+# >>> 'hello world!'
 
 hello()
-# >>> 'say hello!'
+# >>> 'hello world!'

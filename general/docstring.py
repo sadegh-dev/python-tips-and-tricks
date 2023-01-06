@@ -6,7 +6,6 @@
 
 
 
-
 """
     Docstring is placed at the highest level of function or class.
 
@@ -20,12 +19,16 @@
 
 """
 
-class Person:
-    """this is Docstring for Person class
+class className:
+    """this is Docstring for Person class.
+
+    this class is for testing and is empty
     """
 
-def doing(name):
-    """this docstring for doing function
+def funcName(name):
+    """this docstring for doing function.
+
+    this function is for testing and is empty
     """
 
 
@@ -37,6 +40,11 @@ def doing(name):
     this description will be displayed.
 """
 
-help(Person)
+# access class Docstring
+help(className)
 
-help(doing)
+# access function Docstring [way1]
+help(funcName)
+
+# access function Docstring [way2]
+print(funcName.__doc__)

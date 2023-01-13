@@ -1,3 +1,5 @@
+#general
+
 """
     Everything like strings, lists and even functions are objects.
 """

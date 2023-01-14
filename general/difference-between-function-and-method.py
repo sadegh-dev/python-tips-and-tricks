@@ -1,3 +1,5 @@
+#function   #method
+
 """
     * good reference:
         https://www.geeksforgeeks.org/difference-method-function-python/

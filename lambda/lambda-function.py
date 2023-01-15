@@ -83,5 +83,10 @@ print( sorted(data, key=lambda y:y[1]) )
     otherwise it will give an error.
 """
 
+person = lambda x : 'Male' if x=='father' or x=='son' else 'female'
+
+result = person('son')
+
+print(result)
 
 

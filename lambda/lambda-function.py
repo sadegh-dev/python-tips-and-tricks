@@ -10,6 +10,10 @@
 
         - The answer must be used by : list(map(lambda ...) )
 """
+"""
+    It is better not to write complex functions by lambda,
+    because understanding it is difficult.
+"""
 
 # name_function = lambda data_in : doing on data_inputs
 

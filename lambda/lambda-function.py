@@ -74,3 +74,14 @@ print(sorted(data))
 # sort by Alphabet
 
 print( sorted(data, key=lambda y:y[1]) )
+
+
+
+"""
+    The command of the 'if' in the 'lambda' 
+    must be accompanied by the 'else', 
+    otherwise it will give an error.
+"""
+
+
+

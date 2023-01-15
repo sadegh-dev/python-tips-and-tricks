@@ -1,3 +1,5 @@
+#function   #lambda
+
 """
     These functions return the results automatically 
     and there is no need to write the RETURN keyword.

@@ -49,15 +49,24 @@ def multi(x):
 print(list(map(multi ,data)))
 
 # lambda 
+
 print( list( map( lambda y: y*y ,data ) ) )
 
 
 
 
+########
+# EX 3 #
+########
+
+data = [(1,'B'),(3,'D'),(8,'C'),(5,'E'),(7,'A')]
 
 
+# sort by number
+
+print(sorted(data))
 
 
+# sort by Alphabet
 
-
-
+print( sorted(data, key=lambda y:y[1]) )

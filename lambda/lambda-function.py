@@ -34,6 +34,25 @@ print(add(33,46))
 
 
 
+########
+# EX 2 #
+########
+
+data = [1,2,3,4,5,6,7,8,9]
+
+
+# normal 
+
+def multi(x):
+    return x*x
+
+print(list(map(multi ,data)))
+
+# lambda 
+print( list( map( lambda y: y*y ,data ) ) )
+
+
+
 
 
 

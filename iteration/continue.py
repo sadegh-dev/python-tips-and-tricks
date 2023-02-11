@@ -3,6 +3,7 @@
 
     * the continue command must be placed inside a conditional command 
     so that when that condition occurs, 
-    the continue command is executed and that the loop step is not executed.
+    the continue command is executed and that the loop step is not executed,
+    then the rest of the steps are executed.
 
 """

@@ -2,7 +2,7 @@
     * the 'break' statement is a way to exit the loop 
     and stop it completely.
 
-    * the 'break' command should be placed in an 'if', 
+    * the 'break' command should be placed in conditional command, 
     so that if the condition is met, it will stop the loop execution.
 
 """

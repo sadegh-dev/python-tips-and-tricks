@@ -1,7 +1,7 @@
 """
-    The sun should not be in front of the code line, but above it.
+    The comment should not be in front of the line of code, but above it.
 
-    comment is written in two ways.
+    Comment is written in two ways.
 """
 
 # This is a one-line comment.

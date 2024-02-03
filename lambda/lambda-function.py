@@ -37,6 +37,7 @@ add = lambda x,y : x+y
 
 print(add(2,5))
 print(add(33,46))
+print(add(-20,36))
 
 
 
